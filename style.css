@@ -1,0 +1,77 @@
+body {
+    background-color: #293241;
+    color: #c3dfe0;
+    font-family: 'Figtree', sans-serif;
+    font-size: 1em;
+    display: block;
+    margin: 5% 30% 10%;
+    text-align: left;
+}
+
+.title {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #8B729E;
+}
+
+h1 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+a, a:visited {
+    color: #aa7bc3;
+}
+
+a:hover {
+    background-color: #6b4d7a;;
+    color: #c3dfe0;
+}
+
+p {
+    font-weight: 300;
+}
+
+.tiny {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 3%;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 0.9em;
+}
+
+.linkedin-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.linkedin-logo:hover {
+    cursor: pointer;
+    background-color: #c3dfe0;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 5%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        margin: 15%;
+    }
+}
