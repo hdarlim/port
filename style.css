@@ -1,3 +1,8 @@
+html {
+    background-color: #293241;
+    color: #c3dfe0;
+}
+
 body {
     background-color: #293241;
     color: #c3dfe0;
@@ -74,4 +79,5 @@ footer {
     body {
         margin: 15%;
     }
+
 }
